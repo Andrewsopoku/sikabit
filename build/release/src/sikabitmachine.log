@@ -1,0 +1,148 @@
+2017-Dec-15 13:50:58.972373 INFO [daemon] Sikabit v0.1.3.3(0.1-g72946d9)
+2017-Dec-15 13:50:58.972615 INFO [daemon] Module folder: ./sikabitmachine
+2017-Dec-15 13:50:58.973181 INFO [daemon] Initializing p2p server...
+2017-Dec-15 13:50:58.973317 INFO [node_server] Binding on 0.0.0.0:8057
+2017-Dec-15 13:50:58.973398 INFO [node_server] Net service binded on 0.0.0.0:8057
+2017-Dec-15 13:50:58.973438 INFO [node_server] Attempting to add IGD port mapping.
+2017-Dec-15 16:45:58.324241 INFO [daemon] Sikabit v0.1.3.3(0.1-g72946d9)
+2017-Dec-15 16:45:58.324415 INFO [daemon] Module folder: ./sikabitmachine
+2017-Dec-15 16:45:58.324852 INFO [daemon] Initializing p2p server...
+2017-Dec-15 16:45:58.324984 INFO [node_server] Binding on 0.0.0.0:8057
+2017-Dec-15 16:45:58.325049 INFO [node_server] Net service binded on 0.0.0.0:8057
+2017-Dec-15 16:45:58.325083 INFO [node_server] Attempting to add IGD port mapping.
+2017-Dec-15 16:46:02.329070 INFO [node_server] No IGD was found.
+2017-Dec-15 16:46:02.329154 INFO [daemon] P2p server initialized OK
+2017-Dec-15 16:46:02.329201 INFO [daemon] Initializing core...
+2017-Dec-15 16:46:02.329298 INFO [Blockchain] Loading blockchain...
+2017-Dec-15 16:46:02.329375 INFO [BlockCacheSerializer] - loading block index...
+2017-Dec-15 16:46:02.329411 INFO [BlockCacheSerializer] - loading transaction map...
+2017-Dec-15 16:46:02.329445 INFO [BlockCacheSerializer] - loading spent keys...
+2017-Dec-15 16:46:02.329471 INFO [BlockCacheSerializer] - loading outputs...
+2017-Dec-15 16:46:02.329503 INFO [BlockCacheSerializer] - loading multi-signature outputs...
+2017-Dec-15 16:46:02.329529 INFO [BlockCacheSerializer] - loading deposit index...
+2017-Dec-15 16:46:02.329553 INFO [BlockCacheSerializer] Serialization time: 0ms
+2017-Dec-15 16:46:02.329578 INFO [Blockchain] Loading blockchain indices for BlockchainExplorer...
+2017-Dec-15 16:46:02.329619 INFO [BlockchainIndicesSerializer] - loading paymentID index...
+2017-Dec-15 16:46:02.329647 INFO [BlockchainIndicesSerializer] - loading timestamp index...
+2017-Dec-15 16:46:02.329675 INFO [BlockchainIndicesSerializer] - loading generated transactions index...
+2017-Dec-15 16:46:02.329764 INFO [Blockchain] Blockchain initialized. last block: 10, d0.h6.m52.s30 time ago, current difficulty: 21751
+2017-Dec-15 16:46:02.329798 INFO [daemon] Core initialized OK
+2017-Dec-15 16:46:02.329866 INFO [daemon] Starting core rpc server on address 127.0.0.1:8058
+2017-Dec-15 16:46:02.329949 INFO [daemon] Core rpc server started ok
+2017-Dec-15 16:46:02.329984 INFO [daemon] Starting p2p net loop...
+2017-Dec-15 16:46:02.330012 INFO [node_server] Starting node_server
+2017-Dec-15 16:46:02.330059 INFO [core] 
+2017-Dec-15 16:46:02.330059 INFO [core] **********************************************************************
+2017-Dec-15 16:46:02.330059 INFO [core] The daemon will start synchronizing with the network. It may take up to several hours.
+2017-Dec-15 16:46:02.330059 INFO [core] 
+2017-Dec-15 16:46:02.330059 INFO [core] You can set the level of process detailization* through "set_log <level>" command*, where <level> is between 0 (no details) and 4 (very verbose).
+2017-Dec-15 16:46:02.330059 INFO [core] 
+2017-Dec-15 16:46:02.330059 INFO [core] Use "help" command to see the list of available commands.
+2017-Dec-15 16:46:02.330059 INFO [core] 
+2017-Dec-15 16:46:02.330059 INFO [core] Note: in case you need to interrupt the process, use "exit" command. Otherwise, the current progress won't be saved.
+2017-Dec-15 16:46:02.330059 INFO [core] **********************************************************************
+2017-Dec-15 16:51:52.837069 INFO [miner] Miner thread was started [1]
+2017-Dec-15 16:51:52.837202 INFO [miner] Mining has started with 4 threads, good luck!
+2017-Dec-15 16:51:52.837217 INFO [miner] Miner thread was started [3]
+2017-Dec-15 16:51:52.837085 INFO [miner] Miner thread was started [2]
+2017-Dec-15 16:51:52.837576 INFO [miner] Miner thread was started [0]
+2017-Dec-15 16:53:37.950749 INFO [miner] Found block for difficulty: 21751
+2017-Dec-15 16:53:52.296864 INFO [miner] Found block for difficulty: 2157
+2017-Dec-15 16:54:18.703048 INFO [miner] Found block for difficulty: 2180
+2017-Dec-15 16:55:32.958055 INFO [daemon] Pool state: 
+2017-Dec-15 16:56:14.175925 INFO [miner] Found block for difficulty: 2204
+2017-Dec-15 16:56:54.640562 INFO [miner] Found block for difficulty: 2220
+2017-Dec-15 16:57:01.769468 INFO [Blockchain] Blockchain printed with log level 1
+2017-Dec-15 16:57:27.893636 INFO [Blockchain] Blockchain printed with log level 1
+2017-Dec-15 16:58:32.486283 INFO [miner] Found block for difficulty: 2242
+2017-Dec-15 17:00:07.920660 INFO [miner] Found block for difficulty: 2260
+2017-Dec-15 17:00:08.484957 INFO [miner] Found block for difficulty: 2278
+2017-Dec-15 17:02:53.517066 INFO [miner] Found block for difficulty: 2304
+2017-Dec-15 17:02:54.565269 INFO [miner] Found block for difficulty: 2317
+2017-Dec-15 17:03:00.607389 INFO [miner] Found block for difficulty: 2343
+2017-Dec-15 17:03:07.139379 INFO [miner] Found block for difficulty: 2369
+2017-Dec-15 17:03:35.304591 INFO [miner] Found block for difficulty: 2396
+2017-Dec-15 17:04:47.835256 INFO [miner] Found block for difficulty: 2420
+2017-Dec-15 17:04:48.918275 INFO [miner] Found block for difficulty: 2441
+2017-Dec-15 17:04:58.850522 INFO [miner] Found block for difficulty: 2469
+2017-Dec-15 17:05:12.728207 INFO [miner] Found block for difficulty: 2496
+2017-Dec-15 17:06:30.912285 INFO [miner] Found block for difficulty: 2523
+2017-Dec-15 17:07:01.082170 INFO [miner] Found block for difficulty: 2545
+2017-Dec-15 17:07:47.890118 INFO [miner] Found block for difficulty: 2571
+2017-Dec-15 17:07:59.270529 INFO [miner] Found block for difficulty: 2595
+2017-Dec-15 17:08:46.101224 INFO [miner] Found block for difficulty: 2623
+2017-Dec-15 17:08:55.342172 INFO [miner] Found block for difficulty: 2648
+2017-Dec-15 17:09:21.064390 INFO [miner] Found block for difficulty: 2677
+2017-Dec-15 17:09:48.102872 INFO [miner] Found block for difficulty: 2705
+2017-Dec-15 17:10:00.918625 INFO [miner] Found block for difficulty: 2732
+2017-Dec-15 17:12:57.896407 INFO [miner] Found block for difficulty: 2762
+2017-Dec-15 17:15:47.791353 INFO [miner] Found block for difficulty: 2775
+2017-Dec-15 17:16:50.137983 INFO [miner] Found block for difficulty: 2790
+2017-Dec-15 17:17:14.085063 INFO [miner] Found block for difficulty: 2815
+2017-Dec-15 17:17:20.817539 INFO [miner] Found block for difficulty: 2844
+2017-Dec-15 17:19:13.673344 INFO [miner] Found block for difficulty: 2874
+2017-Dec-15 17:19:57.125731 INFO [miner] Found block for difficulty: 2874
+2017-Dec-15 17:20:47.691551 INFO [miner] Found block for difficulty: 2893
+2017-Dec-15 17:21:07.277258 INFO [miner] Found block for difficulty: 2893
+2017-Dec-15 17:22:45.043578 INFO [miner] Found block for difficulty: 2859
+2017-Dec-15 17:24:07.571458 INFO [miner] Found block for difficulty: 2859
+2017-Dec-15 17:24:29.699671 INFO [miner] Found block for difficulty: 2574
+2017-Dec-15 17:24:36.656246 INFO [miner] Found block for difficulty: 2574
+2017-Dec-15 17:24:54.228817 INFO [miner] Found block for difficulty: 2296
+2017-Dec-15 17:25:27.104116 INFO [miner] Found block for difficulty: 2296
+2017-Dec-15 17:25:51.650467 INFO [miner] Found block for difficulty: 2296
+2017-Dec-15 17:26:19.443924 INFO [miner] Found block for difficulty: 1932
+2017-Dec-15 17:26:24.858232 INFO [miner] Found block for difficulty: 1776
+2017-Dec-15 17:28:26.751927 INFO [miner] Found block for difficulty: 1603
+2017-Dec-15 17:29:20.574839 INFO [miner] Found block for difficulty: 1406
+2017-Dec-15 17:33:03.544273 INFO [miner] Found block for difficulty: 16928
+2017-Dec-15 17:36:44.239081 INFO [miner] Found block for difficulty: 16844
+2017-Dec-15 17:55:12.380708 INFO [miner] Found block for difficulty: 16864
+2017-Dec-15 18:04:28.431984 INFO [miner] Found block for difficulty: 17600
+2017-Dec-15 18:08:12.941904 INFO [miner] Found block for difficulty: 17877
+2017-Dec-15 18:15:16.239830 INFO [miner] Found block for difficulty: 17524
+2017-Dec-15 18:17:26.228633 INFO [miner] Found block for difficulty: 17788
+2017-Dec-15 18:18:21.422884 INFO [miner] Found block for difficulty: 18208
+2017-Dec-15 18:20:58.027632 INFO [miner] Found block for difficulty: 19972
+2017-Dec-15 18:25:19.455823 INFO [miner] Found block for difficulty: 14407
+2017-Dec-15 18:27:33.586633 INFO [miner] Found block for difficulty: 13563
+2017-Dec-15 18:37:33.900598 INFO [miner] Found block for difficulty: 14080
+2017-Dec-15 18:41:25.961961 INFO [miner] Found block for difficulty: 13929
+2017-Dec-15 18:43:57.420974 INFO [miner] Found block for difficulty: 14865
+2017-Dec-15 18:51:33.329706 INFO [miner] Found block for difficulty: 15838
+2017-Dec-15 18:54:56.799434 INFO [miner] Found block for difficulty: 16556
+2017-Dec-15 18:57:51.596953 INFO [miner] Found block for difficulty: 16481
+2017-Dec-15 19:04:56.225295 INFO [miner] Found block for difficulty: 17025
+2017-Dec-15 19:09:05.381559 INFO [miner] Found block for difficulty: 15918
+2017-Dec-15 19:16:32.061641 INFO [miner] Found block for difficulty: 16038
+2017-Dec-15 19:23:43.554927 INFO [miner] Found block for difficulty: 16335
+2017-Dec-15 19:45:57.053134 INFO [miner] Found block for difficulty: 15940
+2017-Dec-15 19:46:22.352378 INFO [miner] Found block for difficulty: 16144
+2017-Dec-15 19:47:47.336163 INFO [miner] Found block for difficulty: 16450
+2017-Dec-15 19:51:47.814356 INFO [miner] Found block for difficulty: 16173
+2017-Dec-15 20:07:21.558342 INFO [miner] Found block for difficulty: 16220
+2017-Dec-15 20:10:25.662481 INFO [miner] Found block for difficulty: 16216
+2017-Dec-15 20:14:42.434501 INFO [miner] Found block for difficulty: 16223
+2017-Dec-15 20:15:57.623048 INFO [miner] Found block for difficulty: 14387
+2017-Dec-15 20:24:52.376745 INFO [miner] Found block for difficulty: 14864
+2017-Dec-15 20:27:15.807892 INFO [miner] Found block for difficulty: 15208
+2017-Dec-15 20:43:27.238631 INFO [miner] Found block for difficulty: 15463
+2017-Dec-15 20:48:01.632550 INFO [miner] Found block for difficulty: 14520
+2017-Dec-15 20:50:58.462783 INFO [miner] Found block for difficulty: 14751
+2017-Dec-15 20:52:05.813175 INFO [miner] Found block for difficulty: 14820
+2017-Dec-15 20:53:20.108398 INFO [miner] Found block for difficulty: 15209
+2017-Dec-15 20:57:03.325921 INFO [miner] Found block for difficulty: 14933
+2017-Dec-15 20:59:51.689349 INFO [miner] Found block for difficulty: 15138
+2017-Dec-15 21:05:56.204148 INFO [miner] Found block for difficulty: 14257
+2017-Dec-15 21:13:54.520033 INFO [miner] Found block for difficulty: 14276
+2017-Dec-15 21:17:09.055281 INFO [miner] Found block for difficulty: 14432
+2017-Dec-15 21:19:24.626028 INFO [miner] Found block for difficulty: 14707
+2017-Dec-15 21:19:52.436835 INFO [miner] Found block for difficulty: 14992
+2017-Dec-15 21:27:57.639287 INFO [miner] Found block for difficulty: 15069
+2017-Dec-15 21:30:51.437397 INFO [miner] Found block for difficulty: 15354
+2017-Dec-15 21:41:48.996233 INFO [miner] Found block for difficulty: 15302
+2017-Dec-15 21:48:54.959989 INFO [miner] Found block for difficulty: 14946
+2017-Dec-15 21:55:55.024655 INFO [miner] Found block for difficulty: 14915
+2017-Dec-15 22:00:22.553156 INFO [miner] Found block for difficulty: 16050
+2017-Dec-15 22:14:50.206351 INFO [miner] Found block for difficulty: 16702
+2017-Dec-15 22:17:34.452089 INFO [miner] Found block for difficulty: 16260
