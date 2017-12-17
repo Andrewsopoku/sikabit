@@ -1,148 +1,312 @@
-2017-Dec-15 13:50:58.972373 INFO [daemon] Sikabit v0.1.3.3(0.1-g72946d9)
-2017-Dec-15 13:50:58.972615 INFO [daemon] Module folder: ./sikabitmachine
-2017-Dec-15 13:50:58.973181 INFO [daemon] Initializing p2p server...
-2017-Dec-15 13:50:58.973317 INFO [node_server] Binding on 0.0.0.0:8057
-2017-Dec-15 13:50:58.973398 INFO [node_server] Net service binded on 0.0.0.0:8057
-2017-Dec-15 13:50:58.973438 INFO [node_server] Attempting to add IGD port mapping.
-2017-Dec-15 16:45:58.324241 INFO [daemon] Sikabit v0.1.3.3(0.1-g72946d9)
-2017-Dec-15 16:45:58.324415 INFO [daemon] Module folder: ./sikabitmachine
-2017-Dec-15 16:45:58.324852 INFO [daemon] Initializing p2p server...
-2017-Dec-15 16:45:58.324984 INFO [node_server] Binding on 0.0.0.0:8057
-2017-Dec-15 16:45:58.325049 INFO [node_server] Net service binded on 0.0.0.0:8057
-2017-Dec-15 16:45:58.325083 INFO [node_server] Attempting to add IGD port mapping.
-2017-Dec-15 16:46:02.329070 INFO [node_server] No IGD was found.
-2017-Dec-15 16:46:02.329154 INFO [daemon] P2p server initialized OK
-2017-Dec-15 16:46:02.329201 INFO [daemon] Initializing core...
-2017-Dec-15 16:46:02.329298 INFO [Blockchain] Loading blockchain...
-2017-Dec-15 16:46:02.329375 INFO [BlockCacheSerializer] - loading block index...
-2017-Dec-15 16:46:02.329411 INFO [BlockCacheSerializer] - loading transaction map...
-2017-Dec-15 16:46:02.329445 INFO [BlockCacheSerializer] - loading spent keys...
-2017-Dec-15 16:46:02.329471 INFO [BlockCacheSerializer] - loading outputs...
-2017-Dec-15 16:46:02.329503 INFO [BlockCacheSerializer] - loading multi-signature outputs...
-2017-Dec-15 16:46:02.329529 INFO [BlockCacheSerializer] - loading deposit index...
-2017-Dec-15 16:46:02.329553 INFO [BlockCacheSerializer] Serialization time: 0ms
-2017-Dec-15 16:46:02.329578 INFO [Blockchain] Loading blockchain indices for BlockchainExplorer...
-2017-Dec-15 16:46:02.329619 INFO [BlockchainIndicesSerializer] - loading paymentID index...
-2017-Dec-15 16:46:02.329647 INFO [BlockchainIndicesSerializer] - loading timestamp index...
-2017-Dec-15 16:46:02.329675 INFO [BlockchainIndicesSerializer] - loading generated transactions index...
-2017-Dec-15 16:46:02.329764 INFO [Blockchain] Blockchain initialized. last block: 10, d0.h6.m52.s30 time ago, current difficulty: 21751
-2017-Dec-15 16:46:02.329798 INFO [daemon] Core initialized OK
-2017-Dec-15 16:46:02.329866 INFO [daemon] Starting core rpc server on address 127.0.0.1:8058
-2017-Dec-15 16:46:02.329949 INFO [daemon] Core rpc server started ok
-2017-Dec-15 16:46:02.329984 INFO [daemon] Starting p2p net loop...
-2017-Dec-15 16:46:02.330012 INFO [node_server] Starting node_server
-2017-Dec-15 16:46:02.330059 INFO [core] 
-2017-Dec-15 16:46:02.330059 INFO [core] **********************************************************************
-2017-Dec-15 16:46:02.330059 INFO [core] The daemon will start synchronizing with the network. It may take up to several hours.
-2017-Dec-15 16:46:02.330059 INFO [core] 
-2017-Dec-15 16:46:02.330059 INFO [core] You can set the level of process detailization* through "set_log <level>" command*, where <level> is between 0 (no details) and 4 (very verbose).
-2017-Dec-15 16:46:02.330059 INFO [core] 
-2017-Dec-15 16:46:02.330059 INFO [core] Use "help" command to see the list of available commands.
-2017-Dec-15 16:46:02.330059 INFO [core] 
-2017-Dec-15 16:46:02.330059 INFO [core] Note: in case you need to interrupt the process, use "exit" command. Otherwise, the current progress won't be saved.
-2017-Dec-15 16:46:02.330059 INFO [core] **********************************************************************
-2017-Dec-15 16:51:52.837069 INFO [miner] Miner thread was started [1]
-2017-Dec-15 16:51:52.837202 INFO [miner] Mining has started with 4 threads, good luck!
-2017-Dec-15 16:51:52.837217 INFO [miner] Miner thread was started [3]
-2017-Dec-15 16:51:52.837085 INFO [miner] Miner thread was started [2]
-2017-Dec-15 16:51:52.837576 INFO [miner] Miner thread was started [0]
-2017-Dec-15 16:53:37.950749 INFO [miner] Found block for difficulty: 21751
-2017-Dec-15 16:53:52.296864 INFO [miner] Found block for difficulty: 2157
-2017-Dec-15 16:54:18.703048 INFO [miner] Found block for difficulty: 2180
-2017-Dec-15 16:55:32.958055 INFO [daemon] Pool state: 
-2017-Dec-15 16:56:14.175925 INFO [miner] Found block for difficulty: 2204
-2017-Dec-15 16:56:54.640562 INFO [miner] Found block for difficulty: 2220
-2017-Dec-15 16:57:01.769468 INFO [Blockchain] Blockchain printed with log level 1
-2017-Dec-15 16:57:27.893636 INFO [Blockchain] Blockchain printed with log level 1
-2017-Dec-15 16:58:32.486283 INFO [miner] Found block for difficulty: 2242
-2017-Dec-15 17:00:07.920660 INFO [miner] Found block for difficulty: 2260
-2017-Dec-15 17:00:08.484957 INFO [miner] Found block for difficulty: 2278
-2017-Dec-15 17:02:53.517066 INFO [miner] Found block for difficulty: 2304
-2017-Dec-15 17:02:54.565269 INFO [miner] Found block for difficulty: 2317
-2017-Dec-15 17:03:00.607389 INFO [miner] Found block for difficulty: 2343
-2017-Dec-15 17:03:07.139379 INFO [miner] Found block for difficulty: 2369
-2017-Dec-15 17:03:35.304591 INFO [miner] Found block for difficulty: 2396
-2017-Dec-15 17:04:47.835256 INFO [miner] Found block for difficulty: 2420
-2017-Dec-15 17:04:48.918275 INFO [miner] Found block for difficulty: 2441
-2017-Dec-15 17:04:58.850522 INFO [miner] Found block for difficulty: 2469
-2017-Dec-15 17:05:12.728207 INFO [miner] Found block for difficulty: 2496
-2017-Dec-15 17:06:30.912285 INFO [miner] Found block for difficulty: 2523
-2017-Dec-15 17:07:01.082170 INFO [miner] Found block for difficulty: 2545
-2017-Dec-15 17:07:47.890118 INFO [miner] Found block for difficulty: 2571
-2017-Dec-15 17:07:59.270529 INFO [miner] Found block for difficulty: 2595
-2017-Dec-15 17:08:46.101224 INFO [miner] Found block for difficulty: 2623
-2017-Dec-15 17:08:55.342172 INFO [miner] Found block for difficulty: 2648
-2017-Dec-15 17:09:21.064390 INFO [miner] Found block for difficulty: 2677
-2017-Dec-15 17:09:48.102872 INFO [miner] Found block for difficulty: 2705
-2017-Dec-15 17:10:00.918625 INFO [miner] Found block for difficulty: 2732
-2017-Dec-15 17:12:57.896407 INFO [miner] Found block for difficulty: 2762
-2017-Dec-15 17:15:47.791353 INFO [miner] Found block for difficulty: 2775
-2017-Dec-15 17:16:50.137983 INFO [miner] Found block for difficulty: 2790
-2017-Dec-15 17:17:14.085063 INFO [miner] Found block for difficulty: 2815
-2017-Dec-15 17:17:20.817539 INFO [miner] Found block for difficulty: 2844
-2017-Dec-15 17:19:13.673344 INFO [miner] Found block for difficulty: 2874
-2017-Dec-15 17:19:57.125731 INFO [miner] Found block for difficulty: 2874
-2017-Dec-15 17:20:47.691551 INFO [miner] Found block for difficulty: 2893
-2017-Dec-15 17:21:07.277258 INFO [miner] Found block for difficulty: 2893
-2017-Dec-15 17:22:45.043578 INFO [miner] Found block for difficulty: 2859
-2017-Dec-15 17:24:07.571458 INFO [miner] Found block for difficulty: 2859
-2017-Dec-15 17:24:29.699671 INFO [miner] Found block for difficulty: 2574
-2017-Dec-15 17:24:36.656246 INFO [miner] Found block for difficulty: 2574
-2017-Dec-15 17:24:54.228817 INFO [miner] Found block for difficulty: 2296
-2017-Dec-15 17:25:27.104116 INFO [miner] Found block for difficulty: 2296
-2017-Dec-15 17:25:51.650467 INFO [miner] Found block for difficulty: 2296
-2017-Dec-15 17:26:19.443924 INFO [miner] Found block for difficulty: 1932
-2017-Dec-15 17:26:24.858232 INFO [miner] Found block for difficulty: 1776
-2017-Dec-15 17:28:26.751927 INFO [miner] Found block for difficulty: 1603
-2017-Dec-15 17:29:20.574839 INFO [miner] Found block for difficulty: 1406
-2017-Dec-15 17:33:03.544273 INFO [miner] Found block for difficulty: 16928
-2017-Dec-15 17:36:44.239081 INFO [miner] Found block for difficulty: 16844
-2017-Dec-15 17:55:12.380708 INFO [miner] Found block for difficulty: 16864
-2017-Dec-15 18:04:28.431984 INFO [miner] Found block for difficulty: 17600
-2017-Dec-15 18:08:12.941904 INFO [miner] Found block for difficulty: 17877
-2017-Dec-15 18:15:16.239830 INFO [miner] Found block for difficulty: 17524
-2017-Dec-15 18:17:26.228633 INFO [miner] Found block for difficulty: 17788
-2017-Dec-15 18:18:21.422884 INFO [miner] Found block for difficulty: 18208
-2017-Dec-15 18:20:58.027632 INFO [miner] Found block for difficulty: 19972
-2017-Dec-15 18:25:19.455823 INFO [miner] Found block for difficulty: 14407
-2017-Dec-15 18:27:33.586633 INFO [miner] Found block for difficulty: 13563
-2017-Dec-15 18:37:33.900598 INFO [miner] Found block for difficulty: 14080
-2017-Dec-15 18:41:25.961961 INFO [miner] Found block for difficulty: 13929
-2017-Dec-15 18:43:57.420974 INFO [miner] Found block for difficulty: 14865
-2017-Dec-15 18:51:33.329706 INFO [miner] Found block for difficulty: 15838
-2017-Dec-15 18:54:56.799434 INFO [miner] Found block for difficulty: 16556
-2017-Dec-15 18:57:51.596953 INFO [miner] Found block for difficulty: 16481
-2017-Dec-15 19:04:56.225295 INFO [miner] Found block for difficulty: 17025
-2017-Dec-15 19:09:05.381559 INFO [miner] Found block for difficulty: 15918
-2017-Dec-15 19:16:32.061641 INFO [miner] Found block for difficulty: 16038
-2017-Dec-15 19:23:43.554927 INFO [miner] Found block for difficulty: 16335
-2017-Dec-15 19:45:57.053134 INFO [miner] Found block for difficulty: 15940
-2017-Dec-15 19:46:22.352378 INFO [miner] Found block for difficulty: 16144
-2017-Dec-15 19:47:47.336163 INFO [miner] Found block for difficulty: 16450
-2017-Dec-15 19:51:47.814356 INFO [miner] Found block for difficulty: 16173
-2017-Dec-15 20:07:21.558342 INFO [miner] Found block for difficulty: 16220
-2017-Dec-15 20:10:25.662481 INFO [miner] Found block for difficulty: 16216
-2017-Dec-15 20:14:42.434501 INFO [miner] Found block for difficulty: 16223
-2017-Dec-15 20:15:57.623048 INFO [miner] Found block for difficulty: 14387
-2017-Dec-15 20:24:52.376745 INFO [miner] Found block for difficulty: 14864
-2017-Dec-15 20:27:15.807892 INFO [miner] Found block for difficulty: 15208
-2017-Dec-15 20:43:27.238631 INFO [miner] Found block for difficulty: 15463
-2017-Dec-15 20:48:01.632550 INFO [miner] Found block for difficulty: 14520
-2017-Dec-15 20:50:58.462783 INFO [miner] Found block for difficulty: 14751
-2017-Dec-15 20:52:05.813175 INFO [miner] Found block for difficulty: 14820
-2017-Dec-15 20:53:20.108398 INFO [miner] Found block for difficulty: 15209
-2017-Dec-15 20:57:03.325921 INFO [miner] Found block for difficulty: 14933
-2017-Dec-15 20:59:51.689349 INFO [miner] Found block for difficulty: 15138
-2017-Dec-15 21:05:56.204148 INFO [miner] Found block for difficulty: 14257
-2017-Dec-15 21:13:54.520033 INFO [miner] Found block for difficulty: 14276
-2017-Dec-15 21:17:09.055281 INFO [miner] Found block for difficulty: 14432
-2017-Dec-15 21:19:24.626028 INFO [miner] Found block for difficulty: 14707
-2017-Dec-15 21:19:52.436835 INFO [miner] Found block for difficulty: 14992
-2017-Dec-15 21:27:57.639287 INFO [miner] Found block for difficulty: 15069
-2017-Dec-15 21:30:51.437397 INFO [miner] Found block for difficulty: 15354
-2017-Dec-15 21:41:48.996233 INFO [miner] Found block for difficulty: 15302
-2017-Dec-15 21:48:54.959989 INFO [miner] Found block for difficulty: 14946
-2017-Dec-15 21:55:55.024655 INFO [miner] Found block for difficulty: 14915
-2017-Dec-15 22:00:22.553156 INFO [miner] Found block for difficulty: 16050
-2017-Dec-15 22:14:50.206351 INFO [miner] Found block for difficulty: 16702
-2017-Dec-15 22:17:34.452089 INFO [miner] Found block for difficulty: 16260
+2017-Dec-17 21:25:44.264005 INFO [daemon] Sikabit v0.1.3.3(0.1-g72946d9)
+2017-Dec-17 21:25:44.264127 INFO [daemon] Module folder: ./sikabitmachine
+2017-Dec-17 21:25:44.264587 INFO [daemon] Initializing p2p server...
+2017-Dec-17 21:25:44.267324 INFO [node_server] Binding on 0.0.0.0:8057
+2017-Dec-17 21:25:44.267398 INFO [node_server] Net service binded on 0.0.0.0:8057
+2017-Dec-17 21:25:44.267452 INFO [node_server] Attempting to add IGD port mapping.
+2017-Dec-17 21:25:48.271789 INFO [node_server] No IGD was found.
+2017-Dec-17 21:25:48.271860 INFO [daemon] P2p server initialized OK
+2017-Dec-17 21:25:48.271893 INFO [daemon] Initializing core...
+2017-Dec-17 21:25:48.271968 INFO [Blockchain] Loading blockchain...
+2017-Dec-17 21:25:48.272034 INFO [BlockCacheSerializer] - loading block index...
+2017-Dec-17 21:25:48.272065 INFO [BlockCacheSerializer] - loading transaction map...
+2017-Dec-17 21:25:48.272093 INFO [BlockCacheSerializer] - loading spent keys...
+2017-Dec-17 21:25:48.272118 INFO [BlockCacheSerializer] - loading outputs...
+2017-Dec-17 21:25:48.272147 INFO [BlockCacheSerializer] - loading multi-signature outputs...
+2017-Dec-17 21:25:48.272173 INFO [BlockCacheSerializer] - loading deposit index...
+2017-Dec-17 21:25:48.272198 INFO [BlockCacheSerializer] Serialization time: 0ms
+2017-Dec-17 21:25:48.272224 INFO [Blockchain] Loading blockchain indices for BlockchainExplorer...
+2017-Dec-17 21:25:48.272266 INFO [BlockchainIndicesSerializer] - loading paymentID index...
+2017-Dec-17 21:25:48.272293 INFO [BlockchainIndicesSerializer] - loading timestamp index...
+2017-Dec-17 21:25:48.272320 INFO [BlockchainIndicesSerializer] - loading generated transactions index...
+2017-Dec-17 21:25:48.272358 INFO [Blockchain] Blockchain initialized. last block: 0, d5.h20.m15.s58 time ago, current difficulty: 1
+2017-Dec-17 21:25:48.272388 INFO [daemon] Core initialized OK
+2017-Dec-17 21:25:48.272465 INFO [daemon] Starting core rpc server on address 127.0.0.1:8058
+2017-Dec-17 21:25:48.272523 INFO [daemon] Core rpc server started ok
+2017-Dec-17 21:25:48.272556 INFO [daemon] Starting p2p net loop...
+2017-Dec-17 21:25:48.272583 INFO [node_server] Starting node_server
+2017-Dec-17 21:25:58.272982 ERROR [node_server] Failed to connect to any of seed peers, continuing without seeds
+2017-Dec-17 21:25:58.273047 INFO [core] 
+2017-Dec-17 21:25:58.273047 INFO [core] **********************************************************************
+2017-Dec-17 21:25:58.273047 INFO [core] The daemon will start synchronizing with the network. It may take up to several hours.
+2017-Dec-17 21:25:58.273047 INFO [core] 
+2017-Dec-17 21:25:58.273047 INFO [core] You can set the level of process detailization* through "set_log <level>" command*, where <level> is between 0 (no details) and 4 (very verbose).
+2017-Dec-17 21:25:58.273047 INFO [core] 
+2017-Dec-17 21:25:58.273047 INFO [core] Use "help" command to see the list of available commands.
+2017-Dec-17 21:25:58.273047 INFO [core] 
+2017-Dec-17 21:25:58.273047 INFO [core] Note: in case you need to interrupt the process, use "exit" command. Otherwise, the current progress won't be saved.
+2017-Dec-17 21:25:58.273047 INFO [core] **********************************************************************
+2017-Dec-17 21:26:10.273850 ERROR [node_server] Failed to connect to any of seed peers, continuing without seeds
+2017-Dec-17 21:26:21.317377 INFO [node_server] Stop signal sent
+2017-Dec-17 21:26:21.317457 INFO [node_server] Stopping NodeServer and it's0 connections...
+2017-Dec-17 21:26:21.317585 ERROR [node_server] Failed to connect to any of seed peers, continuing without seeds
+2017-Dec-17 21:26:22.317650 INFO [node_server] NodeServer loop stopped
+2017-Dec-17 21:26:22.317712 INFO [daemon] p2p net loop stopped
+2017-Dec-17 21:26:22.317757 INFO [daemon] Stopping core rpc server...
+2017-Dec-17 21:26:22.317834 INFO [daemon] Deinitializing core...
+2017-Dec-17 21:26:22.317867 INFO [miner] Mining has been stopped, 0 finished
+2017-Dec-17 21:26:22.318015 INFO [Blockchain] Saving blockchain...
+2017-Dec-17 21:26:22.318072 INFO [BlockCacheSerializer] - saving block index...
+2017-Dec-17 21:26:22.318117 INFO [BlockCacheSerializer] - saving transaction map...
+2017-Dec-17 21:26:22.318154 INFO [BlockCacheSerializer] - saving spent keys...
+2017-Dec-17 21:26:22.318188 INFO [BlockCacheSerializer] - saving outputs...
+2017-Dec-17 21:26:22.318223 INFO [BlockCacheSerializer] - saving multi-signature outputs...
+2017-Dec-17 21:26:22.318257 INFO [BlockCacheSerializer] - saving deposit index...
+2017-Dec-17 21:26:22.318291 INFO [BlockCacheSerializer] Serialization time: 0ms
+2017-Dec-17 21:26:22.318350 INFO [Blockchain] Saving blockchain indices...
+2017-Dec-17 21:26:22.318400 INFO [BlockchainIndicesSerializer] - saving paymentID index...
+2017-Dec-17 21:26:22.318437 INFO [BlockchainIndicesSerializer] - saving timestamp index...
+2017-Dec-17 21:26:22.318476 INFO [BlockchainIndicesSerializer] - saving generated transactions index...
+2017-Dec-17 21:26:22.318534 INFO [daemon] Deinitializing p2p...
+2017-Dec-17 21:26:22.318644 INFO [miner] Mining has been stopped, 0 finished
+2017-Dec-17 21:26:22.318733 INFO [daemon] Node stopped.
+2017-Dec-17 21:26:25.184882 INFO [daemon] Sikabit v0.1.3.3(0.1-g72946d9)
+2017-Dec-17 21:26:25.185034 INFO [daemon] Module folder: ./sikabitmachine
+2017-Dec-17 21:26:25.185714 INFO [daemon] Initializing p2p server...
+2017-Dec-17 21:26:25.189131 INFO [node_server] Binding on 0.0.0.0:8057
+2017-Dec-17 21:26:25.189240 INFO [node_server] Net service binded on 0.0.0.0:8057
+2017-Dec-17 21:26:25.189278 INFO [node_server] Attempting to add IGD port mapping.
+2017-Dec-17 21:26:29.193850 INFO [node_server] No IGD was found.
+2017-Dec-17 21:26:29.193923 INFO [daemon] P2p server initialized OK
+2017-Dec-17 21:26:29.193977 INFO [daemon] Initializing core...
+2017-Dec-17 21:26:29.194064 INFO [Blockchain] Loading blockchain...
+2017-Dec-17 21:26:29.194142 INFO [BlockCacheSerializer] - loading block index...
+2017-Dec-17 21:26:29.194175 INFO [BlockCacheSerializer] - loading transaction map...
+2017-Dec-17 21:26:29.194214 INFO [BlockCacheSerializer] - loading spent keys...
+2017-Dec-17 21:26:29.194251 INFO [BlockCacheSerializer] - loading outputs...
+2017-Dec-17 21:26:29.194289 INFO [BlockCacheSerializer] - loading multi-signature outputs...
+2017-Dec-17 21:26:29.194324 INFO [BlockCacheSerializer] - loading deposit index...
+2017-Dec-17 21:26:29.194358 INFO [BlockCacheSerializer] Serialization time: 0ms
+2017-Dec-17 21:26:29.194394 INFO [Blockchain] Loading blockchain indices for BlockchainExplorer...
+2017-Dec-17 21:26:29.194450 INFO [BlockchainIndicesSerializer] - loading paymentID index...
+2017-Dec-17 21:26:29.194480 INFO [BlockchainIndicesSerializer] - loading timestamp index...
+2017-Dec-17 21:26:29.194516 INFO [BlockchainIndicesSerializer] - loading generated transactions index...
+2017-Dec-17 21:26:29.194567 INFO [Blockchain] Blockchain initialized. last block: 0, d5.h20.m16.s39 time ago, current difficulty: 1
+2017-Dec-17 21:26:29.194600 INFO [daemon] Core initialized OK
+2017-Dec-17 21:26:29.194681 INFO [daemon] Starting core rpc server on address 127.0.0.1:8058
+2017-Dec-17 21:26:29.194745 INFO [daemon] Core rpc server started ok
+2017-Dec-17 21:26:29.194779 INFO [daemon] Starting p2p net loop...
+2017-Dec-17 21:26:29.194815 INFO [node_server] Starting node_server
+2017-Dec-17 21:26:39.195221 ERROR [node_server] Failed to connect to any of seed peers, continuing without seeds
+2017-Dec-17 21:26:39.195301 INFO [core] 
+2017-Dec-17 21:26:39.195301 INFO [core] **********************************************************************
+2017-Dec-17 21:26:39.195301 INFO [core] The daemon will start synchronizing with the network. It may take up to several hours.
+2017-Dec-17 21:26:39.195301 INFO [core] 
+2017-Dec-17 21:26:39.195301 INFO [core] You can set the level of process detailization* through "set_log <level>" command*, where <level> is between 0 (no details) and 4 (very verbose).
+2017-Dec-17 21:26:39.195301 INFO [core] 
+2017-Dec-17 21:26:39.195301 INFO [core] Use "help" command to see the list of available commands.
+2017-Dec-17 21:26:39.195301 INFO [core] 
+2017-Dec-17 21:26:39.195301 INFO [core] Note: in case you need to interrupt the process, use "exit" command. Otherwise, the current progress won't be saved.
+2017-Dec-17 21:26:39.195301 INFO [core] **********************************************************************
+2017-Dec-17 21:26:51.196343 ERROR [node_server] Failed to connect to any of seed peers, continuing without seeds
+2017-Dec-17 21:27:03.196900 ERROR [node_server] Failed to connect to any of seed peers, continuing without seeds
+2017-Dec-17 21:27:15.197505 ERROR [node_server] Failed to connect to any of seed peers, continuing without seeds
+2017-Dec-17 21:27:27.198020 ERROR [node_server] Failed to connect to any of seed peers, continuing without seeds
+2017-Dec-17 21:27:39.198496 ERROR [node_server] Failed to connect to any of seed peers, continuing without seeds
+2017-Dec-17 21:27:51.199019 ERROR [node_server] Failed to connect to any of seed peers, continuing without seeds
+2017-Dec-17 21:28:03.199555 ERROR [node_server] Failed to connect to any of seed peers, continuing without seeds
+2017-Dec-17 21:28:15.200091 ERROR [node_server] Failed to connect to any of seed peers, continuing without seeds
+2017-Dec-17 21:28:27.200588 ERROR [node_server] Failed to connect to any of seed peers, continuing without seeds
+2017-Dec-17 21:28:39.201053 ERROR [node_server] Failed to connect to any of seed peers, continuing without seeds
+2017-Dec-17 21:28:51.201446 ERROR [node_server] Failed to connect to any of seed peers, continuing without seeds
+2017-Dec-17 21:29:03.201821 ERROR [node_server] Failed to connect to any of seed peers, continuing without seeds
+2017-Dec-17 21:29:15.202457 ERROR [node_server] Failed to connect to any of seed peers, continuing without seeds
+2017-Dec-17 21:29:27.202953 ERROR [node_server] Failed to connect to any of seed peers, continuing without seeds
+2017-Dec-17 21:29:39.203471 ERROR [node_server] Failed to connect to any of seed peers, continuing without seeds
+2017-Dec-17 21:29:51.203951 ERROR [node_server] Failed to connect to any of seed peers, continuing without seeds
+2017-Dec-17 21:30:03.204386 ERROR [node_server] Failed to connect to any of seed peers, continuing without seeds
+2017-Dec-17 21:30:15.204971 ERROR [node_server] Failed to connect to any of seed peers, continuing without seeds
+2017-Dec-17 21:30:27.205493 ERROR [node_server] Failed to connect to any of seed peers, continuing without seeds
+2017-Dec-17 21:30:39.206164 ERROR [node_server] Failed to connect to any of seed peers, continuing without seeds
+2017-Dec-17 21:30:51.206838 ERROR [node_server] Failed to connect to any of seed peers, continuing without seeds
+2017-Dec-17 21:31:03.207351 ERROR [node_server] Failed to connect to any of seed peers, continuing without seeds
+2017-Dec-17 21:31:15.208008 ERROR [node_server] Failed to connect to any of seed peers, continuing without seeds
+2017-Dec-17 21:31:27.208688 ERROR [node_server] Failed to connect to any of seed peers, continuing without seeds
+2017-Dec-17 21:31:39.209176 ERROR [node_server] Failed to connect to any of seed peers, continuing without seeds
+2017-Dec-17 21:31:51.209661 ERROR [node_server] Failed to connect to any of seed peers, continuing without seeds
+2017-Dec-17 21:32:03.210202 ERROR [node_server] Failed to connect to any of seed peers, continuing without seeds
+2017-Dec-17 21:32:15.210670 ERROR [node_server] Failed to connect to any of seed peers, continuing without seeds
+2017-Dec-17 21:32:27.211217 ERROR [node_server] Failed to connect to any of seed peers, continuing without seeds
+2017-Dec-17 21:32:39.211707 ERROR [node_server] Failed to connect to any of seed peers, continuing without seeds
+2017-Dec-17 21:32:51.212179 ERROR [node_server] Failed to connect to any of seed peers, continuing without seeds
+2017-Dec-17 21:33:03.212709 ERROR [node_server] Failed to connect to any of seed peers, continuing without seeds
+2017-Dec-17 21:33:15.213175 ERROR [node_server] Failed to connect to any of seed peers, continuing without seeds
+2017-Dec-17 21:33:27.213622 ERROR [node_server] Failed to connect to any of seed peers, continuing without seeds
+2017-Dec-17 21:33:39.214099 ERROR [node_server] Failed to connect to any of seed peers, continuing without seeds
+2017-Dec-17 21:33:51.214608 ERROR [node_server] Failed to connect to any of seed peers, continuing without seeds
+2017-Dec-17 21:34:03.215078 ERROR [node_server] Failed to connect to any of seed peers, continuing without seeds
+2017-Dec-17 21:34:15.215582 ERROR [node_server] Failed to connect to any of seed peers, continuing without seeds
+2017-Dec-17 21:34:27.216126 ERROR [node_server] Failed to connect to any of seed peers, continuing without seeds
+2017-Dec-17 21:34:39.216829 ERROR [node_server] Failed to connect to any of seed peers, continuing without seeds
+2017-Dec-17 21:34:51.217482 ERROR [node_server] Failed to connect to any of seed peers, continuing without seeds
+2017-Dec-17 21:35:03.217988 ERROR [node_server] Failed to connect to any of seed peers, continuing without seeds
+2017-Dec-17 21:35:15.218487 ERROR [node_server] Failed to connect to any of seed peers, continuing without seeds
+2017-Dec-17 21:35:27.218990 ERROR [node_server] Failed to connect to any of seed peers, continuing without seeds
+2017-Dec-17 21:35:39.219578 ERROR [node_server] Failed to connect to any of seed peers, continuing without seeds
+2017-Dec-17 21:35:51.220192 ERROR [node_server] Failed to connect to any of seed peers, continuing without seeds
+2017-Dec-17 21:36:03.221182 ERROR [node_server] Failed to connect to any of seed peers, continuing without seeds
+2017-Dec-17 21:36:15.221639 ERROR [node_server] Failed to connect to any of seed peers, continuing without seeds
+2017-Dec-17 21:36:27.222141 ERROR [node_server] Failed to connect to any of seed peers, continuing without seeds
+2017-Dec-17 21:36:39.222604 ERROR [node_server] Failed to connect to any of seed peers, continuing without seeds
+2017-Dec-17 21:36:51.223392 ERROR [node_server] Failed to connect to any of seed peers, continuing without seeds
+2017-Dec-17 21:37:03.223985 ERROR [node_server] Failed to connect to any of seed peers, continuing without seeds
+2017-Dec-17 21:37:15.224406 ERROR [node_server] Failed to connect to any of seed peers, continuing without seeds
+2017-Dec-17 21:37:27.224908 ERROR [node_server] Failed to connect to any of seed peers, continuing without seeds
+2017-Dec-17 21:37:39.225471 ERROR [node_server] Failed to connect to any of seed peers, continuing without seeds
+2017-Dec-17 21:37:51.225932 ERROR [node_server] Failed to connect to any of seed peers, continuing without seeds
+2017-Dec-17 21:38:03.226420 ERROR [node_server] Failed to connect to any of seed peers, continuing without seeds
+2017-Dec-17 21:38:15.226900 ERROR [node_server] Failed to connect to any of seed peers, continuing without seeds
+2017-Dec-17 21:38:27.227342 ERROR [node_server] Failed to connect to any of seed peers, continuing without seeds
+2017-Dec-17 21:38:39.227780 ERROR [node_server] Failed to connect to any of seed peers, continuing without seeds
+2017-Dec-17 21:38:51.228370 ERROR [node_server] Failed to connect to any of seed peers, continuing without seeds
+2017-Dec-17 21:39:03.229039 ERROR [node_server] Failed to connect to any of seed peers, continuing without seeds
+2017-Dec-17 21:39:15.229646 ERROR [node_server] Failed to connect to any of seed peers, continuing without seeds
+2017-Dec-17 21:39:27.230066 ERROR [node_server] Failed to connect to any of seed peers, continuing without seeds
+2017-Dec-17 21:39:39.230708 ERROR [node_server] Failed to connect to any of seed peers, continuing without seeds
+2017-Dec-17 21:39:51.231684 ERROR [node_server] Failed to connect to any of seed peers, continuing without seeds
+2017-Dec-17 21:40:03.232136 ERROR [node_server] Failed to connect to any of seed peers, continuing without seeds
+2017-Dec-17 21:40:15.232598 ERROR [node_server] Failed to connect to any of seed peers, continuing without seeds
+2017-Dec-17 21:40:27.233052 ERROR [node_server] Failed to connect to any of seed peers, continuing without seeds
+2017-Dec-17 21:40:39.233519 ERROR [node_server] Failed to connect to any of seed peers, continuing without seeds
+2017-Dec-17 21:40:51.233993 ERROR [node_server] Failed to connect to any of seed peers, continuing without seeds
+2017-Dec-17 21:41:03.234648 ERROR [node_server] Failed to connect to any of seed peers, continuing without seeds
+2017-Dec-17 21:41:15.235100 ERROR [node_server] Failed to connect to any of seed peers, continuing without seeds
+2017-Dec-17 21:41:27.235871 ERROR [node_server] Failed to connect to any of seed peers, continuing without seeds
+2017-Dec-17 21:41:39.236338 ERROR [node_server] Failed to connect to any of seed peers, continuing without seeds
+2017-Dec-17 21:41:51.237065 ERROR [node_server] Failed to connect to any of seed peers, continuing without seeds
+2017-Dec-17 21:42:03.237542 ERROR [node_server] Failed to connect to any of seed peers, continuing without seeds
+2017-Dec-17 21:42:15.238012 ERROR [node_server] Failed to connect to any of seed peers, continuing without seeds
+2017-Dec-17 21:42:27.238501 ERROR [node_server] Failed to connect to any of seed peers, continuing without seeds
+2017-Dec-17 21:42:39.238997 ERROR [node_server] Failed to connect to any of seed peers, continuing without seeds
+2017-Dec-17 21:42:51.239872 ERROR [node_server] Failed to connect to any of seed peers, continuing without seeds
+2017-Dec-17 21:43:03.240384 ERROR [node_server] Failed to connect to any of seed peers, continuing without seeds
+2017-Dec-17 21:43:15.240859 ERROR [node_server] Failed to connect to any of seed peers, continuing without seeds
+2017-Dec-17 21:43:27.241309 ERROR [node_server] Failed to connect to any of seed peers, continuing without seeds
+2017-Dec-17 21:43:39.241723 ERROR [node_server] Failed to connect to any of seed peers, continuing without seeds
+2017-Dec-17 21:43:51.242163 ERROR [node_server] Failed to connect to any of seed peers, continuing without seeds
+2017-Dec-17 21:44:03.242640 ERROR [node_server] Failed to connect to any of seed peers, continuing without seeds
+2017-Dec-17 21:44:15.243108 ERROR [node_server] Failed to connect to any of seed peers, continuing without seeds
+2017-Dec-17 21:44:27.243589 ERROR [node_server] Failed to connect to any of seed peers, continuing without seeds
+2017-Dec-17 21:44:39.244065 ERROR [node_server] Failed to connect to any of seed peers, continuing without seeds
+2017-Dec-17 21:44:51.244600 ERROR [node_server] Failed to connect to any of seed peers, continuing without seeds
+2017-Dec-17 21:45:03.245114 ERROR [node_server] Failed to connect to any of seed peers, continuing without seeds
+2017-Dec-17 21:45:15.245588 ERROR [node_server] Failed to connect to any of seed peers, continuing without seeds
+2017-Dec-17 21:45:27.246060 ERROR [node_server] Failed to connect to any of seed peers, continuing without seeds
+2017-Dec-17 21:45:39.246546 ERROR [node_server] Failed to connect to any of seed peers, continuing without seeds
+2017-Dec-17 21:45:51.247056 ERROR [node_server] Failed to connect to any of seed peers, continuing without seeds
+2017-Dec-17 21:46:03.247841 ERROR [node_server] Failed to connect to any of seed peers, continuing without seeds
+2017-Dec-17 21:46:15.248328 ERROR [node_server] Failed to connect to any of seed peers, continuing without seeds
+2017-Dec-17 21:46:27.248786 ERROR [node_server] Failed to connect to any of seed peers, continuing without seeds
+2017-Dec-17 21:46:39.249438 ERROR [node_server] Failed to connect to any of seed peers, continuing without seeds
+2017-Dec-17 21:46:51.250128 ERROR [node_server] Failed to connect to any of seed peers, continuing without seeds
+2017-Dec-17 21:47:03.250630 ERROR [node_server] Failed to connect to any of seed peers, continuing without seeds
+2017-Dec-17 21:47:15.251129 ERROR [node_server] Failed to connect to any of seed peers, continuing without seeds
+2017-Dec-17 21:47:27.251594 ERROR [node_server] Failed to connect to any of seed peers, continuing without seeds
+2017-Dec-17 21:47:39.252088 ERROR [node_server] Failed to connect to any of seed peers, continuing without seeds
+2017-Dec-17 21:47:51.252586 ERROR [node_server] Failed to connect to any of seed peers, continuing without seeds
+2017-Dec-17 21:48:03.253021 ERROR [node_server] Failed to connect to any of seed peers, continuing without seeds
+2017-Dec-17 21:48:15.253503 ERROR [node_server] Failed to connect to any of seed peers, continuing without seeds
+2017-Dec-17 21:48:27.253974 ERROR [node_server] Failed to connect to any of seed peers, continuing without seeds
+2017-Dec-17 21:48:39.254445 ERROR [node_server] Failed to connect to any of seed peers, continuing without seeds
+2017-Dec-17 21:48:51.255112 ERROR [node_server] Failed to connect to any of seed peers, continuing without seeds
+2017-Dec-17 21:49:03.255595 ERROR [node_server] Failed to connect to any of seed peers, continuing without seeds
+2017-Dec-17 21:49:15.256230 ERROR [node_server] Failed to connect to any of seed peers, continuing without seeds
+2017-Dec-17 21:49:27.256852 ERROR [node_server] Failed to connect to any of seed peers, continuing without seeds
+2017-Dec-17 21:49:39.257311 ERROR [node_server] Failed to connect to any of seed peers, continuing without seeds
+2017-Dec-17 21:49:51.257867 ERROR [node_server] Failed to connect to any of seed peers, continuing without seeds
+2017-Dec-17 21:50:03.258449 ERROR [node_server] Failed to connect to any of seed peers, continuing without seeds
+2017-Dec-17 21:50:15.258897 ERROR [node_server] Failed to connect to any of seed peers, continuing without seeds
+2017-Dec-17 21:50:27.259373 ERROR [node_server] Failed to connect to any of seed peers, continuing without seeds
+2017-Dec-17 21:50:39.259841 ERROR [node_server] Failed to connect to any of seed peers, continuing without seeds
+2017-Dec-17 21:50:51.260320 ERROR [node_server] Failed to connect to any of seed peers, continuing without seeds
+2017-Dec-17 21:51:03.260853 ERROR [node_server] Failed to connect to any of seed peers, continuing without seeds
+2017-Dec-17 21:51:15.261372 ERROR [node_server] Failed to connect to any of seed peers, continuing without seeds
+2017-Dec-17 21:51:27.261840 ERROR [node_server] Failed to connect to any of seed peers, continuing without seeds
+2017-Dec-17 21:51:39.262263 ERROR [node_server] Failed to connect to any of seed peers, continuing without seeds
+2017-Dec-17 21:51:51.262771 ERROR [node_server] Failed to connect to any of seed peers, continuing without seeds
+2017-Dec-17 21:52:03.263319 ERROR [node_server] Failed to connect to any of seed peers, continuing without seeds
+2017-Dec-17 21:52:15.263931 ERROR [node_server] Failed to connect to any of seed peers, continuing without seeds
+2017-Dec-17 21:52:27.264437 ERROR [node_server] Failed to connect to any of seed peers, continuing without seeds
+2017-Dec-17 21:52:39.264961 ERROR [node_server] Failed to connect to any of seed peers, continuing without seeds
+2017-Dec-17 21:52:51.265446 ERROR [node_server] Failed to connect to any of seed peers, continuing without seeds
+2017-Dec-17 21:53:03.265906 ERROR [node_server] Failed to connect to any of seed peers, continuing without seeds
+2017-Dec-17 21:53:15.266392 ERROR [node_server] Failed to connect to any of seed peers, continuing without seeds
+2017-Dec-17 21:53:27.266911 ERROR [node_server] Failed to connect to any of seed peers, continuing without seeds
+2017-Dec-17 21:53:39.267457 ERROR [node_server] Failed to connect to any of seed peers, continuing without seeds
+2017-Dec-17 21:53:51.267988 ERROR [node_server] Failed to connect to any of seed peers, continuing without seeds
+2017-Dec-17 21:54:03.268426 ERROR [node_server] Failed to connect to any of seed peers, continuing without seeds
+2017-Dec-17 21:54:15.269004 ERROR [node_server] Failed to connect to any of seed peers, continuing without seeds
+2017-Dec-17 21:54:27.269469 ERROR [node_server] Failed to connect to any of seed peers, continuing without seeds
+2017-Dec-17 21:54:39.270036 ERROR [node_server] Failed to connect to any of seed peers, continuing without seeds
+2017-Dec-17 21:54:51.270489 ERROR [node_server] Failed to connect to any of seed peers, continuing without seeds
+2017-Dec-17 21:55:03.270971 ERROR [node_server] Failed to connect to any of seed peers, continuing without seeds
+2017-Dec-17 21:55:15.271668 ERROR [node_server] Failed to connect to any of seed peers, continuing without seeds
+2017-Dec-17 21:55:27.272097 ERROR [node_server] Failed to connect to any of seed peers, continuing without seeds
+2017-Dec-17 21:55:39.272530 ERROR [node_server] Failed to connect to any of seed peers, continuing without seeds
+2017-Dec-17 21:55:51.272968 ERROR [node_server] Failed to connect to any of seed peers, continuing without seeds
+2017-Dec-17 21:56:03.273385 ERROR [node_server] Failed to connect to any of seed peers, continuing without seeds
+2017-Dec-17 21:56:15.273886 ERROR [node_server] Failed to connect to any of seed peers, continuing without seeds
+2017-Dec-17 21:56:27.274359 ERROR [node_server] Failed to connect to any of seed peers, continuing without seeds
+2017-Dec-17 21:56:39.274906 ERROR [node_server] Failed to connect to any of seed peers, continuing without seeds
+2017-Dec-17 21:56:51.275348 ERROR [node_server] Failed to connect to any of seed peers, continuing without seeds
+2017-Dec-17 21:57:03.275819 ERROR [node_server] Failed to connect to any of seed peers, continuing without seeds
+2017-Dec-17 21:57:15.276461 ERROR [node_server] Failed to connect to any of seed peers, continuing without seeds
+2017-Dec-17 21:57:27.276973 ERROR [node_server] Failed to connect to any of seed peers, continuing without seeds
+2017-Dec-17 21:57:39.277411 ERROR [node_server] Failed to connect to any of seed peers, continuing without seeds
+2017-Dec-17 21:57:51.278000 ERROR [node_server] Failed to connect to any of seed peers, continuing without seeds
+2017-Dec-17 21:58:03.278708 ERROR [node_server] Failed to connect to any of seed peers, continuing without seeds
+2017-Dec-17 21:58:15.279178 ERROR [node_server] Failed to connect to any of seed peers, continuing without seeds
+2017-Dec-17 21:58:27.279660 ERROR [node_server] Failed to connect to any of seed peers, continuing without seeds
+2017-Dec-17 21:58:39.280281 ERROR [node_server] Failed to connect to any of seed peers, continuing without seeds
+2017-Dec-17 21:58:51.280732 ERROR [node_server] Failed to connect to any of seed peers, continuing without seeds
+2017-Dec-17 21:59:03.281354 ERROR [node_server] Failed to connect to any of seed peers, continuing without seeds
+2017-Dec-17 21:59:15.281987 ERROR [node_server] Failed to connect to any of seed peers, continuing without seeds
+2017-Dec-17 21:59:27.282413 ERROR [node_server] Failed to connect to any of seed peers, continuing without seeds
+2017-Dec-17 21:59:39.282856 ERROR [node_server] Failed to connect to any of seed peers, continuing without seeds
+2017-Dec-17 21:59:51.283331 ERROR [node_server] Failed to connect to any of seed peers, continuing without seeds
+2017-Dec-17 22:00:03.283740 ERROR [node_server] Failed to connect to any of seed peers, continuing without seeds
+2017-Dec-17 22:00:15.284140 ERROR [node_server] Failed to connect to any of seed peers, continuing without seeds
+2017-Dec-17 22:00:27.284605 ERROR [node_server] Failed to connect to any of seed peers, continuing without seeds
+2017-Dec-17 22:00:39.285012 ERROR [node_server] Failed to connect to any of seed peers, continuing without seeds
+2017-Dec-17 22:00:51.285417 ERROR [node_server] Failed to connect to any of seed peers, continuing without seeds
+2017-Dec-17 22:01:03.285808 ERROR [node_server] Failed to connect to any of seed peers, continuing without seeds
+2017-Dec-17 22:01:15.286213 ERROR [node_server] Failed to connect to any of seed peers, continuing without seeds
+2017-Dec-17 22:01:27.286685 ERROR [node_server] Failed to connect to any of seed peers, continuing without seeds
+2017-Dec-17 22:01:39.287130 ERROR [node_server] Failed to connect to any of seed peers, continuing without seeds
+2017-Dec-17 22:01:51.288099 ERROR [node_server] Failed to connect to any of seed peers, continuing without seeds
+2017-Dec-17 22:02:03.288583 ERROR [node_server] Failed to connect to any of seed peers, continuing without seeds
+2017-Dec-17 22:02:15.289080 ERROR [node_server] Failed to connect to any of seed peers, continuing without seeds
+2017-Dec-17 22:02:27.290465 ERROR [node_server] Failed to connect to any of seed peers, continuing without seeds
+2017-Dec-17 22:02:39.291516 ERROR [node_server] Failed to connect to any of seed peers, continuing without seeds
+2017-Dec-17 22:02:51.291992 ERROR [node_server] Failed to connect to any of seed peers, continuing without seeds
+2017-Dec-17 22:03:03.293055 ERROR [node_server] Failed to connect to any of seed peers, continuing without seeds
+2017-Dec-17 22:03:15.293935 ERROR [node_server] Failed to connect to any of seed peers, continuing without seeds
+2017-Dec-17 22:03:27.294424 ERROR [node_server] Failed to connect to any of seed peers, continuing without seeds
+2017-Dec-17 22:03:39.295508 ERROR [node_server] Failed to connect to any of seed peers, continuing without seeds
+2017-Dec-17 22:03:51.296439 ERROR [node_server] Failed to connect to any of seed peers, continuing without seeds
+2017-Dec-17 22:04:03.296906 ERROR [node_server] Failed to connect to any of seed peers, continuing without seeds
+2017-Dec-17 22:04:15.297383 ERROR [node_server] Failed to connect to any of seed peers, continuing without seeds
+2017-Dec-17 22:04:27.297954 ERROR [node_server] Failed to connect to any of seed peers, continuing without seeds
+2017-Dec-17 22:04:39.298389 ERROR [node_server] Failed to connect to any of seed peers, continuing without seeds
+2017-Dec-17 22:04:40.591523 INFO [node_server] Stop signal sent
+2017-Dec-17 22:04:40.591596 INFO [node_server] Stopping NodeServer and it's0 connections...
+2017-Dec-17 22:04:40.591668 INFO [node_server] NodeServer loop stopped
+2017-Dec-17 22:04:40.591698 INFO [daemon] p2p net loop stopped
+2017-Dec-17 22:04:40.591726 INFO [daemon] Stopping core rpc server...
+2017-Dec-17 22:04:40.591774 INFO [daemon] Deinitializing core...
+2017-Dec-17 22:04:40.591802 INFO [miner] Mining has been stopped, 0 finished
+2017-Dec-17 22:04:40.591913 INFO [Blockchain] Saving blockchain...
+2017-Dec-17 22:04:40.591966 INFO [BlockCacheSerializer] - saving block index...
+2017-Dec-17 22:04:40.591997 INFO [BlockCacheSerializer] - saving transaction map...
+2017-Dec-17 22:04:40.592031 INFO [BlockCacheSerializer] - saving spent keys...
+2017-Dec-17 22:04:40.592060 INFO [BlockCacheSerializer] - saving outputs...
+2017-Dec-17 22:04:40.592088 INFO [BlockCacheSerializer] - saving multi-signature outputs...
+2017-Dec-17 22:04:40.592114 INFO [BlockCacheSerializer] - saving deposit index...
+2017-Dec-17 22:04:40.592142 INFO [BlockCacheSerializer] Serialization time: 0ms
+2017-Dec-17 22:04:40.592191 INFO [Blockchain] Saving blockchain indices...
+2017-Dec-17 22:04:40.592237 INFO [BlockchainIndicesSerializer] - saving paymentID index...
+2017-Dec-17 22:04:40.592267 INFO [BlockchainIndicesSerializer] - saving timestamp index...
+2017-Dec-17 22:04:40.592297 INFO [BlockchainIndicesSerializer] - saving generated transactions index...
+2017-Dec-17 22:04:40.592349 INFO [daemon] Deinitializing p2p...
+2017-Dec-17 22:04:40.592451 INFO [miner] Mining has been stopped, 0 finished
+2017-Dec-17 22:04:40.592520 INFO [daemon] Node stopped.

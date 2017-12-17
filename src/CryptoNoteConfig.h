@@ -8,7 +8,7 @@
 // GNU Lesser General Public License for more details.
 //
 // You should have received a copy of the GNU Lesser General Public License
-// along with Bytecoin.  If not, see <http://www.gnu.org/licenses/>.
+// along with Sikabit.  If not, see <http://www.gnu.org/licenses/>.
 
 #pragma once
 
@@ -134,7 +134,7 @@ const char     P2P_STAT_TRUSTED_PUB_KEY[]                    = "0001001000100000
 
 const std::initializer_list<const char*> SEED_NODES = {
   // "127.0.0.1:80",
-
+"5.150.236.20:8080"
 };
 
 struct CheckpointData {
